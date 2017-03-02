@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="ODS"
+  DTS:DTSID="{BF033CF8-3886-4375-9B20-C1A712A3B947}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::ConnectionODS]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Retain="True"
+      DTS:ConnectionString="Data Source=db-prod-datawarehouse.namely.run;User ID=svc_ssis;Initial Catalog=ODS;Provider=SQLNCLI11.1;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAyLvaH8sp3EW5uN42KchLwAAAAAACAAAAAAAQZgAAAAEAACAAAACo+UhDt86sJl5Bj9gQH7ot+n2RLWWQAlAogngUWAP2wgAAAAAOgAAAAAIAACAAAADkLYnLeC7IsDZFcJPJTcMqURw3eRaHcWnfWnrLE68Xz5AAAACDOqzyshvRq4V33aRadyoPh95MkFEXIQI3QFKLJu6fPNFEE1njmm0ntTkVjIq6h7djrDng6CmfL6Xgzqa7c2BEM0sNLsXHlSIDC/wxlbQIKoujTJmcp+4LSI3ivtm3+BSc2ayNvWoK0mhc9Tx/x/S19n7N86R4RQkUB4rBE4DwFqbiys5SbImfZ163AEbd3RFAAAAAXpATegcGg3z8QgehmECOm9fnQcBC/eo8skX/NuaZ7KnrWhjVN1ksLqeVkQhmL4Xe3e0YGa0hzyvmF7AfLiuV4g==</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

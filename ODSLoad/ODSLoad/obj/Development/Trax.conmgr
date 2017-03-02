@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Trax"
+  DTS:DTSID="{B21CD502-F22A-47FE-A308-AAA05E68C7B8}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::ConnectionTrax]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=db-prod-payroll.namely.com;User ID=svc_ssis;Initial Catalog=Trax;Provider=SQLNCLI11.1;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAyLvaH8sp3EW5uN42KchLwAAAAAACAAAAAAAQZgAAAAEAACAAAAAwhy8EW+F8uhUdCJBrtof5jE1fRNQ6Jmcnqb59vgBdfgAAAAAOgAAAAAIAACAAAABlfbnfbkUjVElkDCxMESvPREBgVdz27SKnyyvvFEnRDJAAAACUieK/1HkIPeSY6I4j1tUO0tCOJX5XzvRB6ITbkKwDA6qgP5+4srcgRuGUYTL0+Ez1WMlFFGr3IPLxduodpqFiMZgfFYdYs/0DljuCDXavK5pqV+VfwmTWcQG9Q3+yKf0qlfWyx5NBEaFtCwbDs09NVsFH3CkX9JvWY55dNbqgWpGw936x1+E+HpvR/x7U7QpAAAAApSPQnY770mkYZPllN2+RG1TIEnYtXXH753uj3R0qhj+LH1c+Odxje8leP57dqMsK0bO2psBLrbScBesD1SRH4Q==</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

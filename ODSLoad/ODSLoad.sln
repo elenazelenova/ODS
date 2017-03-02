@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "ODSLoad", "ODSLoad\ODSLoad.dtproj", "{3C757179-A132-42E9-999D-E2D6C318FE2F}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "TableRowCount", "TableRowCount\TableRowCount.dtproj", "{3946C447-17E9-4F00-BD8B-261DDA00BC02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C757179-A132-42E9-999D-E2D6C318FE2F}.Development|Default.ActiveCfg = Development
+		{3C757179-A132-42E9-999D-E2D6C318FE2F}.Development|Default.Build.0 = Development
+		{3946C447-17E9-4F00-BD8B-261DDA00BC02}.Development|Default.ActiveCfg = Development
+		{3946C447-17E9-4F00-BD8B-261DDA00BC02}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

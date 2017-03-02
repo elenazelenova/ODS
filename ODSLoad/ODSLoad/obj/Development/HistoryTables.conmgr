@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="HistoryTables"
+  DTS:DTSID="{FAAE1A29-0869-4143-8D53-FD1948704566}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::ConnectionHistoryTables]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=db-prod-datawarehouse.namely.run;User ID=svc_ssis;Initial Catalog=HistoryTables;Provider=SQLNCLI11.1;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAyLvaH8sp3EW5uN42KchLwAAAAAACAAAAAAAQZgAAAAEAACAAAAA0b2bMc/Xt6iU6DibuhcY1TSofK2+8Xyn6y3JAmjEvQQAAAAAOgAAAAAIAACAAAADFBW+hzy1+dl+283OY9XYmIxXk+KRuZgy6OxkQTLc6YZAAAABqobg2CTcDHMYNaYIgn+WyCVaL9pHIMfKh8G2KLoxemqY2/SWbMBHLaLomgLK5ulq1fOUMM+9XPNDyuGrVOJnVsd0bHT2rtlfHRmGIL2JnIAMTLhvJ6rOBrbG90ZtgtN+l8WJTIzbJml7TpA7mxqk+lY1xHIFfRz0MWpQ/l/uXCD0fq1J0C8V+/PF6TJHwsDBAAAAAROoc91cZO2RwMIFlMc1jDG1BfI61/1AUV538YFD1fZOupwijurquS7Xi90Gx4DnhDxFBBkrlIqlyMpWKVv+ikA==</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

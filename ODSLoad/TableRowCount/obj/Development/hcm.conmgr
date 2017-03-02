@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="hcm"
+  DTS:DTSID="{FAAE1A29-0869-4143-8D53-FD1948704566}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">@[$Project::ConnectionHistory]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=database-featureteam-dwv2.namely.run;User ID=svc_waldorf;Initial Catalog=INT_Waldorf_HistoryTables;Provider=SQLNCLI11.1;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAyLvaH8sp3EW5uN42KchLwAAAAAACAAAAAAAQZgAAAAEAACAAAABCigEPJFc5KB+6eRfnE+iGrQEmywAVdNIeb/Hm4+bEkgAAAAAOgAAAAAIAACAAAAD5ZMXg0rbUzYJ97Ql8QE7/whGMhttmz8LQ8gbgLCTujZAAAACuAOMBhF5Ui9JP6gVnEyi61J7KtyK5QjNe8gsPTsla2G54rMlwbfqaLmabYMW0hjeYXaKIpmxGxZqBDyb/GuKz1TIfvlkb04H06sOPnoDtyXv4vCjvF3IIUIAtTgT1OD8WRMK1v/7iCBibWaf9KdeFlCtJEw82ybPOU76+2NtReFJrUzC/1THKTumdKiWTbtlAAAAAjpx7WlRqNKJyonnYCt4Xn8LouAQGuwcREUHjtDh0/6xRdkicz3OqS5YdExO+15M3j/OB74Bg3E71pbB/xWHtow==</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
